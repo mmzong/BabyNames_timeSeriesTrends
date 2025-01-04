@@ -11,7 +11,7 @@ This project examines over a century of baby name data from the Social Security 
 - `re` for pattern matching of regular expressions
 
 ## Techniques Used
-- **Object-Oriented Programming:** Encapsulation of data processing, cleaning, manipulation, and visualization within the BabyNames class.
+- **Object-Oriented Programming:** Encapsulation of data manipulation, calculations, and visualization within the BabyNames class.
 - **Dynamic Helper Functions:** retrieve_files: Scans directories to locate and collect paths for over 140 .txt files for processing. Can do so for any type of user inputted file extension.
 - **Memory-efficient Processing:** of large datasets. record_loader_gen yields each record of the data files one at a time.
 - **Module import and export:** Designed as a multi-module project, enabling the reuse of functions and classes across different .py files. Example: Helper functions from hf.py are imported and used in babynames.py.
