@@ -96,5 +96,20 @@ Class `BabyNames` that creates a Pandas DataFrame called names_df from all the r
         - Return:
             - n/a
 
+## How to Run
 
+1. **Fork the Repository**:
+   ```bash
+   git fork https://github.com/mmzong/BabyNames_timeSeriesTrends.git
+   ```
+
+2. **Install Requirements**:
+   ```bash
+   pip install -r <path/to/requirements.txt>
+   ```
+
+3. **Run the Project**:
+   ```bash
+    python src/main.py
+   ```
 
